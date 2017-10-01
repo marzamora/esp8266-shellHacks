@@ -1,7 +1,7 @@
 #include "ESP8266WiFi.h"
 /* HC-SR501 Motion Detector */
-#define ledPin D7 // Red LED
-#define pirPin D1 // Input for HC-SR501
+#define ledPin 13 // Red LED
+#define pirPin 5 // Input for HC-SR501
 
 int pirValue; // variable to store read PIR Value
 

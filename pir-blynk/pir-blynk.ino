@@ -9,15 +9,15 @@
 
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "YOUR AUTH CODE HERE";
+char auth[] = "449c8d5bb27e4e7f8ada6a48973a11da";
 
 /* WiFi credentials */
-char ssid[] = "YOUR SSID";
-char pass[] = "YOUR PASSWORD";
+char ssid[] = "test";
+char pass[] = "dalepipo";
 
 /* HC-SR501 Motion Detector */
-#define ledPin D7 
-#define pirPin D1 // Input for HC-S501
+#define ledPin 13 // GPIO13
+#define pirPin 5 // Input for PIR GPIO5
 int pirValue; // Place to store read PIR Value
 
 void setup()
